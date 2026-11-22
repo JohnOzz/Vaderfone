@@ -1,0 +1,48 @@
+html, body {
+    background-color: #110000;
+    color: red;
+    font-family: roboto;
+}
+
+button{
+    background-color: red;
+    border-style: none;
+    box-shadow: none;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    padding: .8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-weight: 700;
+    font-family: roboto;
+    
+}
+#landingWrapper {
+    width: 100vw;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+
+}
+
+#content1Wrapper {
+    
+    height: fit-content;
+    width: 100%;
+    
+    
+}
+.contentGraph {
+    width: 100%;
+    scale: 0.8;
+}
+
+#content1paragraph{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
