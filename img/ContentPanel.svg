@@ -1,0 +1,34 @@
+<svg width="1106" height="1492" viewBox="0 0 1106 1492" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use xlink:href="#stroke0_14_18" fill="url(#paint0_radial_14_18)"/>
+<mask id="stroke1_14_18" fill="white">
+<use xlink:href="#stroke0_14_18"/>
+</mask>
+<path d="M61 1492H1046C1079.14 1492 1106 1465.14 1106 1432V136C1106 60.8893 1045.11 0 970 0H136C60.8893 0 0 60.8892 0 136V1431C0 1464.69 27.3107 1492 61 1492Z" stroke-width="2" stroke="url(#paint1_linear_14_18)" mask="url(#stroke1_14_18)"/>
+<use xlink:href="#stroke2_14_18" fill="url(#paint2_linear_14_18)"/>
+<mask id="stroke3_14_18" fill="white">
+<use xlink:href="#stroke2_14_18"/>
+</mask>
+<path d="M68 1454H1038C1071.14 1454 1098 1427.14 1098 1394V173C1098 101.203 1039.8 43 968 43H138C66.203 43 8 101.203 8 173V1394C8 1427.14 34.8629 1454 68 1454Z" stroke-width="2" stroke="url(#paint3_linear_14_18)" mask="url(#stroke3_14_18)"/>
+<defs>
+<radialGradient id="paint0_radial_14_18" cx="0" cy="0" r="1" gradientTransform="matrix(1030.41 192.099 -142.401 2202.11 553 132.661)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9F4B59"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_14_18" x1="553" y1="0" x2="553" y2="1492" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF1E00" stop-opacity="0.32"/>
+<stop offset="1" stop-color="#666666" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_14_18" x1="553" y1="43" x2="553" y2="1454" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.775329" stop-color="#110000"/>
+<stop offset="1" stop-color="#240C0F" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_14_18" x1="734.5" y1="-327.673" x2="759.647" y2="1484.38" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A18CFF"/>
+<stop offset="0.594607"/>
+<stop offset="1" stop-color="#230B0E" stop-opacity="0"/>
+</linearGradient>
+<path id="stroke0_14_18" d="M0 136C0 60.8892 60.8893 0 136 0H970C1045.11 0 1106 60.8893 1106 136V1432C1106 1465.14 1079.14 1492 1046 1492H61C27.3107 1492 0 1464.69 0 1431V136Z"/>
+<path id="stroke2_14_18" d="M8 173C8 101.203 66.203 43 138 43H968C1039.8 43 1098 101.203 1098 173V1394C1098 1427.14 1071.14 1454 1038 1454H68C34.8629 1454 8 1427.14 8 1394V173Z"/>
+</defs>
+</svg>
