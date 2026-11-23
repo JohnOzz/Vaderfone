@@ -62,13 +62,13 @@ button{
 }
 
 .article {
-    background: #000000;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    
+    
     position: absolute;
     border-style: solid;
     
     box-sizing: border-box;
-    border-radius: 8em;
+    /* border-radius: 8em; */
     padding-left: 8em;
     padding-right: 4em; 
     padding-top: 8em;
