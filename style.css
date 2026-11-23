@@ -1,4 +1,10 @@
+
 html, body {
+    --sideSpace: 20%;
+    --content-space: calc(100% - (2 * var(--sideSpace)))
+
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -11,6 +17,18 @@ html, body {
 p {
     margin-bottom: 2em;
     font-family: "Space Mono", monospace;
+}
+h1{
+    color: white;
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 2em;
+}
+h3{
+    color: red;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1em;
 }
 button{
     background-color: red;
@@ -37,54 +55,36 @@ button{
 
 }
 
-#content1Wrapper {
-    background: #000000;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-    position: absolute;
-    border-style: solid;
-    
-    
-    border-radius: 8em;
-    padding: 4em;
-    padding-top: 6em;
-    height: fit-content;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 2em;
-    z-index: 1;
-    
-    
-}
+
 .contentGraph {
     width: 100%;
     scale: 0.8;
 }
 
-/* #contentPanelBackground {
-    color: transparent;
+.article {
+    background: #000000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
     position: absolute;
     border-style: solid;
     
-    border-image: linear-gradient(180deg, rgb(157, 104, 151) 0%, rgba(0, 0, 0, 0) 100%); 
-    
-    background: #9F4B59;
-    background: linear-gradient(180deg, rgba(159, 75, 89, 1) 0%, rgba(0, 0, 0, 0) 100%);
-    
+    box-sizing: border-box;
     border-radius: 8em;
-    padding: 4em;
-    padding-top: 6em;
+    padding-left: 8em;
+    padding-right: 4em; 
+    padding-top: 8em;
+    padding-bottom: 6em;
     height: fit-content;
-    width: 50%;
-    margin-left: 25%;
-    
-} */
-.article {
-  border: 1px solid transparent;
-  border-image: url(/img/ContentPanel.svg)
-                180 144 100 144 fill
-                / 180px 144px 100px 144px
-                / 0 stretch;
-  padding: 200px 160px 120px;
-  min-width: 300px;
-  min-height: 300px;
+    width: var(--content-space);
+    margin-left: 0%;
+    margin-right: var(--sideSpace);
+    margin-left: var(--sideSpace);
+    margin-top: 2em;
+    border: 1px solid transparent;
+    border-image: url(/img/ContentPanel.svg)
+                  180 144 100 144 fill
+                  / 180px 144px 100px 144px
+                  / 0 stretch;
+    /* padding: 200px 160px 120px; */
+    min-width: 300px;
+    min-height: 300px;
 }
