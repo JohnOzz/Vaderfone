@@ -131,9 +131,10 @@ button{
 }
 .articleHeaders {
     font-weight: 600;
+    font-size: 2em;
     margin-bottom: .5em;
     padding-bottom: 0;
-    color: rgb(216, 204, 204);
+    color: rgb(254, 254, 254);
 }
 .navItem{
     
@@ -173,5 +174,22 @@ button{
     width: 94%;
     margin-inline: auto; 
   }
-
+  .articleHeaders{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .articleParagraphs{
+    font-size: .7em;
+  }
+  #headerLanding{
+    
+    font-size: 3em;
+  }
+  html, body {
+    background: linear-gradient(180deg, rgb(68, 1, 1) 0%,rgb(68, 1, 1) .3%, rgba(8, 4, 4, 1) 20%);
+  }
+  #navBar{
+    opacity: 0;
+  }
 }
