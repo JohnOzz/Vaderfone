@@ -64,6 +64,7 @@ button{
 .article {
     
     
+
     position: absolute;
     border-style: solid;
     
@@ -80,7 +81,7 @@ button{
     margin-left: var(--sideSpace);
     margin-top: 2em;
     border: 1px solid transparent;
-    border-image: url(/img/ContentPanel.svg)
+    border-image: url(img/ContentPanel.svg)
                   180 144 100 144 fill
                   / 180px 144px 100px 144px
                   / 0 stretch;
