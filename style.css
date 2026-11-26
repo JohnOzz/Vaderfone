@@ -137,8 +137,7 @@ button{
 
 
 #navBar{
-    border-style: solid;
-    border-color: blue;
+    
     position: absolute;
     float: right;
     top: 0;
