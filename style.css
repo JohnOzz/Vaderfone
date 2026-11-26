@@ -9,10 +9,8 @@ html, body {
     padding: 0;
     scrollbar-width: none;
     overflow-x: hidden;
-    
-    
     background: #2e0000;
-    background: linear-gradient(180deg, rgb(249, 95, 144) 0%,rgb(68, 1, 1) .3%, rgba(8, 4, 4, 1) 50%);
+    background: linear-gradient(180deg, rgb(249, 95, 144) 0%,rgb(68, 1, 1) .1%, rgba(8, 4, 4, 1) 50%);
     font-family: Roboto;
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -136,10 +134,26 @@ button{
     padding-bottom: 0;
     color: rgb(254, 254, 254);
 }
+
+
+#navBar{
+    border-style: solid;
+    border-color: blue;
+    position: absolute;
+    float: right;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 100vw;
+    height: 2em;
+    
+}
+
+
 .navItem{
     
+    position: relative;    
     float: right;
-    
     
     font-size: 1em;
     font-family: Roboto;
@@ -148,12 +162,22 @@ button{
     margin-top: .5em;
     
 }
-#navBar{
-    float: right;
-    width: fit-content;
-    height: 2em;
+#mobileNav{
+    color: #C29292;
+    opacity: 0;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(180deg,   rgba(19, 17, 17, 0) 0%,rgba(5, 5, 5, 0.43) 100%);
+    z-index: 1;
+    width: 0;
+    height: 0;
     
 }
+
+
+
 @media (max-width: 1350px) {
   .article {
     border-image-width: 135px 108px 75px 108px; 
@@ -176,20 +200,42 @@ button{
   }
   .articleHeaders{
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
   }
   
   .articleParagraphs{
     font-size: .7em;
+    line-break: loose;
   }
   #headerLanding{
     
     font-size: 3em;
   }
   html, body {
-    background: linear-gradient(180deg, rgb(68, 1, 1) 0%,rgb(68, 1, 1) .3%, rgba(8, 4, 4, 1) 20%);
+    background: linear-gradient(180deg,  rgb(249, 95, 144) 0%,rgb(68, 1, 1) .2%, rgba(8, 4, 4, 1) 20%);
   }
   #navBar{
     opacity: 0;
   }
+ 
+  #mobileNav{
+    opacity: 100;
+    width: 100vw;
+    height: 3em;
+    
+    
+}
+
+#dataNav{
+    opacity: 100;
+    
+}
+#impressumNav{
+    opacity: 100;
+    
+}
+#toolsNav{
+    opacity: 100;
+    
+}
 }
